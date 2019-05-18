@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Next Page</title>
+    <style>
+           body{
+            text-align: center; font-size: 20px; font-family:  Ubuntu;
+            background-color: rgb(51, 250, 223);
+        }
+        input, button, textarea{
+            border:none; padding: 10px 20px; font-weight: bold; font-size: 20px; border-radius: 7px; text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <form action="/sendOTP" method="POST">
+        <input type="number" name="otp" placeholder="OTP"> <br><br>
+        <button>SUBMIT</button>
+    </form>
+</body>
+</html>

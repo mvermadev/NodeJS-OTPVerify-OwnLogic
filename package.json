@@ -1,0 +1,17 @@
+{
+  "name": "send_email_nodemailer",
+  "version": "1.0.0",
+  "description": "Send Mail using Nodemailer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manish Verma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "nodemailer": "^6.1.1",
+    "random-number": "0.0.9"
+  }
+}

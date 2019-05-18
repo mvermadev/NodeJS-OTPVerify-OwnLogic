@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Mailer</title>
+    <style>
+        body{
+            text-align: center; font-size: 20px; font-family:  Ubuntu;
+            background-color: rgb(51, 250, 223);
+        }
+        input, button, textarea{
+            border:none; padding: 10px 20px; font-weight: bold; font-size: 20px; border-radius: 7px; text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+<h1>Form Mailer using NodeJS</h1>
+    <form action="/sendMail" method="POST">
+        <input type="text" name="name" placeholder="NAME"> <br><br>
+        <input type="email" name="email" placeholder="EMAIL"> <br><br>
+        <button>SUBMIT</button>
+    </form>
+</body>
+</html>
