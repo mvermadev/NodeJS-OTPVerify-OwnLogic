@@ -18,14 +18,14 @@ app.post('/sendMail', (req, res)=>{
     const transporter = nodemailer.createTransport({
         service:'gmail',
         auth: {
-            user: 'manishverma001997@gmail.com',
-            pass: 'm-o-n-u1997ge'
+            user: 'YOUR_EMAIL',
+            pass: 'YOUR_PASSWORD'
         }
     });
     
     const mailOptions ={
-        from : 'manishverma001997@gmail.com',
-        to: email,
+        from : 'YOUR_EMAIL',
+        to: email, //receiver email
         subject: 'OTP',
         text: 'Your OTP Verification is : ' + ran + ' for ' + name + ' registration process.'
     }
